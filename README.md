@@ -1,2 +1,2 @@
 # API-Blog-Nu
-https://api-blog-aga9q4zut-genta-arya.vercel.app/posting
+https://api-blog-2coesnsgf-genta-arya.vercel.app/posting

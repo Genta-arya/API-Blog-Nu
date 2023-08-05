@@ -97,7 +97,7 @@ app.get('/posting', (req, res) => {
 app.post('/posting', upload.single('image'), (req, res) => {
   try {
     const { title, isi, category, author } = req.body;
-    const gambar = req.file ? req.file.filename : null; // Dapatkan nama file gambar yang diunggah (jika ada)
+    const gambar = req.file ? req.file.filename : null;
     
     // Simpan data posting beserta nama file gambar (jika ada) ke database
     const insertQuery = "INSERT INTO posting (title, isi, category, author, image) VALUES (?, ?, ?, ?, ?)";

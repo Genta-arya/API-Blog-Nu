@@ -1,12 +1,18 @@
 const mysql = require('mysql');
 
-// Konfigurasi koneksi database
 const dbConfig = {
   host: 'bshs1omw9nq4ztfgt3sp-mysql.services.clever-cloud.com',
   user: 'up4xroranr6av53a',
   password: 'E2yxdzeLWuDmt9L16fxK',
   database: 'bshs1omw9nq4ztfgt3sp',
 };
+
+// const dbConfig = {
+//   host: 'localhost',
+//   user: 'root',
+//   password: '',
+//   database: 'db_nu',
+// };
 
 // Fungsi untuk membuat koneksi
 function createConnection() {
